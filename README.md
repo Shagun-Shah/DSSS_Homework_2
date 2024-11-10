@@ -12,22 +12,22 @@ A simple and interactive command-line math quiz game to test your math skills! T
 
 
 ## Installation
-1. Make sure you have Python 3.6 or above installed.
+1. Make sure you have *Python 3.6 or above* installed.
 2. Install the package directly from GitHub:
 
    ```bash
    pip install git+https://github.com/Shagun-Shah/DSSS_Homework_2.git
+   
 3. Verify installation by running:
-
-    ```bash
+   ```
     math_quiz
+   ```
 
-Note: This package has no external dependencies, so installation is quick and simple!
+**Note: This package has no external dependencies, so installation is quick and simple!**
 
 ## Usage
 To start the math quiz game, simply type the following command in your terminal:
 
-     ```bash
     math_quiz
 
 ## Example
@@ -50,6 +50,6 @@ Game over! Your score is: 2/3
 
 ## Testing
 To run the unit tests, use the following command in the root of the project:
-
-    ```bash
-    python -m unittest discover math_quiz
+   ```
+   python -m unittest discover math_quiz
+   ```
