@@ -10,8 +10,8 @@ setup(
     install_requires=[],  # Add dependencies if any
     python_requires='>=3.6',  # Specify Python version requirement
     entry_points={
-        "console_scripts": [
-            "math_quiz=math_quiz.math_quiz:math_quiz"
-        ]
+    'console_scripts': [
+        'math_quiz=math_quiz.math_quiz:math_quiz',
+        ],
     },
 )
